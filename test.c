@@ -1,3 +1,4 @@
+#include "mix_architecture.h"
 #include "mix_characters.h"
 #include "mix_word.h"
 
@@ -26,6 +27,8 @@ int main()
 
     MixWord c_word = MixWordNewFull(MINUS, 64, 00, 55, 02, 30);
     MixWordDebugPrint(&c_word);
+
+    MixArchitecture architecture;
     
     return 0;
 }
